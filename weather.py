@@ -10,6 +10,10 @@ response = requests.get(request_url)
 
 if response.status_code == 200:
     data = response.json()
-    print(data)
+    weather = data['weather'][0]['main']
+    print(weather)
+    temp = data['main']['temp']
+    print(temp)
+
 else:
     print("An error occured")
