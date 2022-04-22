@@ -1,3 +1,6 @@
+# today may be cloudy but tomorrow will be a better day
+# keep the streak alive!!
+
 import requests
 
 API_KEY = "f9f2f48d25f6c8d6da3d188b16ffc993"
